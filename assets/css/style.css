@@ -1,0 +1,259 @@
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    /* background:lightgoldenrodyellow; */
+}
+
+body {
+    line-height: 1;
+}
+
+h1 {
+    font-family: "Russo One";
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+.instructions {
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    /* background-color:lightgoldenrodyellow; */
+    color: #000;
+    text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+    /* background-color:lightgoldenrodyellow; */
+    color: #000;
+    font-style: italic;
+    font-weight: bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+    border-bottom: 1px dotted;
+    cursor: help;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #cccccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+input,
+select {
+    vertical-align: middle;
+}
+
+* {
+    /* background-color: lightgoldenrodyellow; */
+}
+
+.card {
+    /* background-color: lightgoldenrodyellow; */
+    background: rgba(250, 250, 210, .75);
+    /* opacity: .5; */
+    color: black;
+    border-radius: 5%;
+    border: 5px solid black;
+    padding: 1rem;
+}
+
+.modal-pop {
+    /* width: 100%; */
+    margin-left: 443px;
+    margin-top: 346px;    
+}
+
+.result-card {
+    background: rgba(250, 250, 210, .75);
+    /* background-color: lightgoldenrodyellow; */
+    align-items: baseline;
+    width: 200px;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 5%;
+    border: 5px solid black;
+    font-size: 14px;
+    flex-direction: row;
+}
+
+#results-div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-items: center;
+}
+
+@media screen and (max-width: 992px) {
+    .search-box {
+        display: inline-block;
+        width: 50%;
+    }
+
+    .forecast-map {
+        display: inline-block;
+        width: 50%;
+    }
+
+    .activities {
+        display: inline-block;
+        width: 50%;
+    }
+
+    .instructions {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .search-box {
+        display: inline-block;
+        width: 50%;
+    }
+
+    .forecast-map {
+        display: inline-block;
+        width: 50%;
+    }
+
+    .activities {
+        display: inline-block;
+        width: 50%;
+    }
+
+    .instructions {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
